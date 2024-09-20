@@ -8,11 +8,11 @@ Bem-vindo ao projeto Tradutor! Este projeto utiliza várias ferramentas e tecnol
 - **Interface Simples**: Interface amigável criada com Bootstrap.
 - **Ambiente Seguro**: Uso de variáveis de ambiente para proteger suas chaves de API.
 
-<img src="img/Captura de tela 2024-09-20 160037.png" alt="Minha Imagem">
+<img src="img/Captura de tela 2024-09-20 160037.png" alt="Minha Imagem" width="800" >
 
 <br>
 
-<img src="img/Captura de tela 2024-09-20 160730.png" alt="Minha Imagem">
+<img src="img/Captura de tela 2024-09-20 160730.png" alt="Minha Imagem" width="800"  >
 
 
 ## Tecnologias Utilizadas
@@ -54,19 +54,18 @@ Bem-vindo ao projeto Tradutor! Este projeto utiliza várias ferramentas e tecnol
 <br>
 
 # Estrutura do Projeto
-    ```bash
-    projeto-tradutor/
-      │
-      ├── templates/
-      │   ├── index.html  # Página principal com o campo de texto
-      │   └── result.html  # Página de resultado da tradução
-      │
-      ├── app.py  # Arquivo principal da aplicação Flask
-      ├── .env  # Arquivo de variáveis de ambiente (não incluído no repositório)
-      ├── .gitignore  # Arquivo para ignorar arquivos desnecessários
-      ├── requirements.txt  # Lista de dependências do Python
-      └── README.md  # Este arquivo!
-      
+         ```bash
+          projeto-tradutor/
+            │
+            ├── templates/
+            │   ├── index.html  # Página principal com o campo de texto
+            │   └── result.html  # Página de resultado da tradução
+            │
+            ├── app.py  # Arquivo principal da aplicação Flask
+            ├── .env  # Arquivo de variáveis de ambiente (não incluído no repositório)
+            ├── .gitignore  # Arquivo para ignorar arquivos desnecessários
+            ├── requirements.txt  # Lista de dependências do Python
+            └── README.md  # Este arquivo!
 <br>
 
 <h1> Contribuição</h1>
