@@ -1,0 +1,9 @@
+# Ignorar diretórios de dependências
+
+venv/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de ambiente
+.env
