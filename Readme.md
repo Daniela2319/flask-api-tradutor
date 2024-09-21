@@ -1,6 +1,6 @@
 # Projeto Tradutor com Flask e Azure
 
-Bem-vindo ao projeto Tradutor! Este projeto utiliza várias ferramentas e tecnologias para criar uma aplicação web simples que traduz textos usando a API de Tradução da Azure. 🚀
+Projeto Tradutor! Este projeto utiliza várias ferramentas e tecnologias para criar uma aplicação web simples que traduz textos usando a API de Tradução da Azure. 🚀
 
 ## Funcionalidades
 
@@ -44,10 +44,17 @@ Bem-vindo ao projeto Tradutor! Este projeto utiliza várias ferramentas e tecnol
     * Crie um arquivo `.env` na raiz do projeto e adicione sua chave de API da Azure:
    ```bash
     AZURE_API_KEY=sua_chave_aqui
-5. **Execute a aplicação**:
+5. **Ativar o modo de desenvolvimento**
+   * Antes de rodar o servidor, é importante ativar o modo de desenvolvimento para facilitar a visualização de erros e mudanças automáticas.
+   * Esse comando ativa o ambiente de desenvolvimento.
+   ```sh
+     set FLASK_ENV=development
+
+6. **Execute a aplicação**:
+   * Depois de ativar o ambiente de desenvolvimento, execute o servidor com o comando:
    ```bash
     flask run
-6. **Acesse a aplicação**:
+7. **Acesse a aplicação**:
    * Abra seu navegador e vá para `http://127.0.0.1:5000`
 
 <br>
