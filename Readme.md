@@ -20,7 +20,7 @@ Bem-vindo ao projeto Tradutor! Este projeto utiliza várias ferramentas e tecnol
 - **Flask**: Framework web para Python.
 - **Azure Translator API**: Serviço de tradução de texto.
 - **Bootstrap**: Framework CSS para criar interfaces responsivas.
-- **.env**: Arquivo para armazenar variáveis de ambiente.
+- **.env**: Arquivo para armazenar variáveis do sistema.
 - **Ambiente Virtual**: Para gerenciar dependências do Python.
 - **Git**: Controle de versão.
 - **.gitignore**: Para ignorar arquivos desnecessários no repositório.
@@ -54,18 +54,20 @@ Bem-vindo ao projeto Tradutor! Este projeto utiliza várias ferramentas e tecnol
 <br>
 
 # Estrutura do Projeto
-         ```bash
-          projeto-tradutor/
-            │
-            ├── templates/
-            │   ├── index.html  # Página principal com o campo de texto
-            │   └── result.html  # Página de resultado da tradução
-            │
-            ├── app.py  # Arquivo principal da aplicação Flask
-            ├── .env  # Arquivo de variáveis de ambiente (não incluído no repositório)
-            ├── .gitignore  # Arquivo para ignorar arquivos desnecessários
-            ├── requirements.txt  # Lista de dependências do Python
-            └── README.md  # Este arquivo!
+```sh
+projeto-tradutor/
+  │
+  ├── templates/
+  │   ├── index.html  # Página principal com o campo de texto
+  │   └── result.html  # Página de resultado da tradução
+  │
+  ├── app.py  # Arquivo principal da aplicação Flask
+  ├── .env  # Arquivo de variáveis do sistema (não incluído no repositório)
+  ├── .gitignore  # Arquivo para ignorar arquivos desnecessários
+  ├── requirements.txt  # Lista de dependências do Python
+  └── README.md  # Este arquivo!
+```
+
 <br>
 
 <h1> Contribuição</h1>
